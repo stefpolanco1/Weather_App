@@ -18,10 +18,10 @@
     <div class="container">
       <div class="weather-app">
         <div class="overview">
-          <h1>Boston</h1>
+          <h1 id="city"></h1>
           <ul>
-            <li>Sunday 7:00 PM</li>
-            <li>Clear</li>
+            <li>Last Updated: <span id="date"></span></li>
+            <li id="description"></li>
           </ul>
         </div>
         <div class="row">
@@ -35,8 +35,8 @@
                     class="float-left"
                   />
                   <div class="float-left">
-                    <strong>56</strong>
-                    <span class="units">°F | °C</span>
+                    <strong id="temperature"></strong>
+                    <span class="units">°F | <a href="#"> °C </a> </span>
                   </div>
                 </li>
               </ul>
@@ -44,8 +44,8 @@
           </div>
           <div class="col-6">
             <ul>
-              <li>Humidity: 25%</li>
-              <li>Wind: 13 mph</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
           </div>
         </div>
