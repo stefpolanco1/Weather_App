@@ -45,7 +45,13 @@
             <div class="weather-temperature">
               <ul>
                 <li>
-                  <img src="" alt="Clear" id="icon" class="float-left" />
+                  <img
+                    src=""
+                    alt="Clear"
+                    id="icon"
+                    class="float-left"
+                    width="42"
+                  />
                   <div class="float-left">
                     <strong id="temperature"></strong>
                     <span class="units">°F | <a href="#"> °C </a> </span>
@@ -60,8 +66,23 @@
               <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Tue</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temperature">
+                  <span class="weather-forecast-temperature-max">34°</span>
+                  <span class="weather-forecast-temperature-min">42°</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <script src="src/index.js"></script>
         <small>
           <a href="https://github.com/stefpolanco1/Weather_App">
             Open-Sourced Code
@@ -70,5 +91,6 @@
         </small>
       </div>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

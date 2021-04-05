@@ -49,5 +49,25 @@ li {
   top: -32px;
 }
 #icon {
-  color: #c471ff;
+  background-color: #e8c8ff;
+  border-radius: 5px;
+}
+.weather-forecast {
+  color: c471ff;
+  text-align: center;
+  margin-top: 20px;
+}
+.weather-forecast img {
+  background-color: #e8c8ff;
+  border-radius: 5px;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
