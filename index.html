@@ -17,18 +17,30 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1>Boston</h1>
-        <ul>
-          <li>Sunday 7:00 PM</li>
-          <li>Clear</li>
-        </ul>
+        <div class="overview">
+          <h1>Boston</h1>
+          <ul>
+            <li>Sunday 7:00 PM</li>
+            <li>Clear</li>
+          </ul>
+        </div>
         <div class="row">
           <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt=""
-            />
-            56°F | °C
+            <div class="weather-temperature">
+              <ul>
+                <li>
+                  <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                    alt="Clear"
+                    class="float-left"
+                  />
+                  <div class="float-left">
+                    <strong>56</strong>
+                    <span class="units">°F | °C</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="col-6">
             <ul>

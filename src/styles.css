@@ -11,7 +11,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
 ul {
   margin: 0;
@@ -23,7 +23,27 @@ li {
   margin: 0;
   padding: 0;
   color: #a332f4;
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 23px;
   line-height: 19px;
+}
+.overview {
+  margin-bottom: 10px;
+}
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+  margin-bottom: 10px;
+}
+.weather-temperature strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1;
+  color: #c471ff;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
