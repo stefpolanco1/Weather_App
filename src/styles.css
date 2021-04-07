@@ -81,3 +81,7 @@ li {
   margin-left: 255px;
   text-decoration: none;
 }
+.btn {
+  background: #e0b5ff;
+  border: none;
+}
