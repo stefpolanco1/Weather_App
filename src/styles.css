@@ -25,7 +25,7 @@ li {
   padding: 0;
   color: #a332f4;
   font-size: 18px;
-  line-height: 19px;
+  line-height: 23px;
   text-transform: capitalize;
 }
 .overview {
@@ -48,6 +48,9 @@ li {
   position: relative;
   font-size: 18px;
   top: -32px;
+}
+.units a {
+  text-decoration: none;
 }
 #icon {
   background-color: #e8c8ff;
@@ -84,4 +87,13 @@ li {
 .btn {
   background: #e0b5ff;
   border: none;
+}
+.btn-primary :hover {
+  background: #c471ff;
+  cursor: pointer;
+  background-color: #c471ff;
+}
+.weather-temperature .active {
+  color: #c471ff;
+  cursor: default;
 }
