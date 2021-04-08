@@ -85,13 +85,19 @@ li {
   text-decoration: none;
 }
 .btn {
-  background: #e0b5ff;
+  background: #c471ff;
   border: none;
 }
 .btn-primary :hover {
   background: #c471ff;
   cursor: pointer;
   background-color: #c471ff;
+}
+.btn-primary:hover {
+  color: #c471ff;
+  background-color: #e8c8ff;
+  border-color: #c471ff;
+  transition: inherit;
 }
 .weather-temperature .active {
   color: #c471ff;
