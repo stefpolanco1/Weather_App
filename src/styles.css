@@ -1,3 +1,5 @@
+
+
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
@@ -81,7 +83,7 @@ li {
   text-align: center;
   font-size: 13px;
   font-family: "Courier New", Courier, monospace;
-  margin-left: 255px;
+  margin-top: 10px;
   text-decoration: none;
 }
 .btn {
